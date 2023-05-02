@@ -2,9 +2,11 @@
 
 This repository contains the code used to produce three interactive calculators used in "The Case for Campaign Analysis: A Method for Studying Military Operations", published in *International Security*. All three are R Shiny code, with the main model logic in a `server.R` file, and the interactive front end in `ui.R`. Please refer to the paper and appendix for details about each of these models.
 
-- `european_conventional_balance`: code to replicate and extend Posen's conventional military balance analysis of NATO and the Warsaw Pact in 1980s Europe.
-- `merits_of_uncertainty` is a replication and extension of Wu Riqiang's 2020 article in *International Security* studying the Chinese nuclear force's susceptibility to nuclear first strikes.
-- `first_strike` is a replication and extension of Lieber and Press's 2006 model of a US nuclear first strike on Russian nuclear forces, with extensions to make it match Wu's Chinese scenario more closely (e.g. options for dispersal and imperfect knowledge).
+- `european_conventional_balance`: code to replicate and extend Posen's conventional military balance analysis of NATO and the Warsaw Pact in 1980s Europe. [Live demo](https://campaign-analysis.shinyapps.io/Inadvertent_Escalation/
+)
+- `merits_of_uncertainty` is a replication and extension of Wu Riqiang's 2020 article in *International Security* studying the Chinese nuclear force's susceptibility to nuclear first strikes. [Live demo](https://campaign-analysis.shinyapps.io/Merits_of_Uncertainty/)
+- `first_strike` is a replication and extension of Lieber and Press's 2006 model of a US nuclear first strike on Russian nuclear forces, with extensions to make it match Wu's Chinese scenario more closely (e.g. options for dispersal and imperfect knowledge). [Live demo](https://campaign-analysis.shinyapps.io/Nuclear_Counterforce/
+)
 
 ## Citation
 
